@@ -1,0 +1,90 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: 100px;
+}
+
+header{
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    background: grey;
+    padding: 20px;
+    color:#FFF;
+    height: 200px;
+    z-index: 2;
+    
+    }
+    
+    .header-titre{
+        text-align: center;
+        margin: 0px;
+        text-transform:capitalize ;
+        font-style: italic;
+        font-weight: bold;
+        z-index: 4;
+    }
+    
+    .header-nav{
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    z-index: 3;
+    border-radius:2px; 
+    }
+    
+    .header-nav a  { 
+    float: left;
+    width: 25%;
+    color: inherit;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.2);
+    }
+    .header-nav a:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+      
+    }
+
+
+    .image{
+      
+        display: flex;
+        background-color: blue;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+    }
+
+    .a-propos {
+        text-align: center;
+    }
+
+
+    h3{
+    text-align: center;
+    font-style: oblique;
+    font-size: 25px;
+    }
+
+
+
+    hr{
+        color: blue;
+        border: 3px blue solid;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        text-align: center;
+    }
