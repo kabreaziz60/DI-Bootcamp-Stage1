@@ -1,0 +1,15 @@
+div{
+    background-color: rgb(125, 236, 236);
+    color: black;
+    width: 730px;
+}
+
+ ul{
+   
+    text-transform: none;
+    text-align: center;
+ }
+
+ li{
+    list-style: none;
+ }
