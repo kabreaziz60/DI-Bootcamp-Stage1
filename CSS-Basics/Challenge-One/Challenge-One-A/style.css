@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(20, 212, 212);
+}
+
+
+div{
+    background-color: rgb(235, 245, 245);
+    color: black;
+    width: 730px;
+    text-align: center;
+}
+
+ ul{
+   
+    text-transform: none;
+    border: 5px dashed black;
+ }
+
+ li{
+    list-style: none;
+ }
+
+ #wrap{
+    border: 5px dashed black;
+ }
