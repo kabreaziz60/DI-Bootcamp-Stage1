@@ -1,0 +1,68 @@
+/*Sélecteur Universel*/s
+
+* {
+    color: blue;
+}
+
+
+/*Sélecteur Descendant*/
+
+footer p {
+    background-color:red;
+}
+
+/*Sélecteur Adjacent*/
+
+h1+h4 {
+    background-color:blue;
+}
+
+/*Sélecteur Enfant Direct*/
+
+ul > li {
+    background-color:blue;
+}
+/*Sélecteur D’attributs*/
+
+a[href="#"] {
+    background-color:blue;
+}
+
+/*Une pseudo-classe CSS*/
+
+selector:pseudo-class {
+    property: value;
+  }
+
+  /*Premier Et Dernier Enfant*/
+
+  li:first-child {
+    background-color:blue;
+}
+
+/*N-Ième Enfant*/
+
+li:nth-child(2) {
+    background-color: teal;
+}
+
+
+/*Flotter*/
+
+button {
+    background-color: red;
+}
+
+button:hover {
+    background-color: blue;
+  }
+
+ /* Spécificité*/
+
+ p {
+    font-size: 16px;
+}
+
+p {
+    font-size: 100px;
+}
