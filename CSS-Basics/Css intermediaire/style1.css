@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    margin:10px 15px;
+}
+
+/*syntaxe de requete multimedia*/
+
+@media media-type and (media-feature-rule) {
+    /* CSS rules go here */
+  }
+
+
+/* Baser sur l'ecran*/
+  @media screen {
+    div { 
+         border: 2px solid red;
+         display: inline-block;
+         width: 45%;
+         background-color: aqua;
+     }
+ }
+
+ @media print {
+    div {
+        background-color: yellow;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    div { 
+        border: 2px dotted red;
+        display: inline-block;
+        width: 45%;
+        background-color: aqua;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    div { 
+        border: 2px dotted red;
+        display: inline-block;
+        width: 45%;
+        background-color: aqua;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    p {
+        color: white
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    div {
+        width : 30%;
+        display: inline-block;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        width : 45%;
+        display: inline-block;
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        width : 100%;
+        background-color: yellow;
+    }
+}
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    /*do something in this width range.*/
+}
+
+
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (max-width: 480px) { }
+
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    div {
+        width : 30%;
+        display: inline-block;
+        background-color: aqua;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    div {
+        width : 45%;
+        display: inline-block;
+        background-color: pink;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    div {
+        width : 75%;
+        display: inline-block;
+        background-color: lightgreen;
+    }
+}
+
+@media all and (max-width: 480px) { 
+    div {
+        width : 100%;
+        background-color: yellow;
+    }
+}
+
+/*orientation ecran*/
+
+@media screen and (orientation: landscape) {
+    div {
+        width : 45%;
+        display: inline-block;
+        background-color: aqua;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    div {
+        width : 100%;
+        background-color: yellow;
+    }
+}
