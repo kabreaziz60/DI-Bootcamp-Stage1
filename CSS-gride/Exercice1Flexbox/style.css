@@ -25,7 +25,7 @@ body{
 
 .div1{
     
-    background-color: rgb(122, 122, 244);
+    background-color: rgb(65, 187, 240);
     width: 100%;
     text-align: center;
     
@@ -33,16 +33,16 @@ body{
 
 .div2{
     
-    background-color: blue;
+    background-color: rgb(65, 187, 240);
     width: 50%;
     height: 150px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
 
 }
 .div3{
-    background-color: red;
+    background-color: rgb(65, 187, 240);
     width: 100%;
     text-align: center;
 }
